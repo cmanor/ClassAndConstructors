@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        var gas = new Product(4, 10, "Gallon of gas");
+        gas.printProduct();
+        gas.totalCost();
+
     }
 }
